@@ -12,10 +12,12 @@ namespace AtmMachineDesktop
 {
     public partial class Form2 : Form
     {
-        
+        public AccountModel account;
         public Form2(AccountModel account)
         {
             InitializeComponent();
+            this.account = account;
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -57,12 +59,12 @@ namespace AtmMachineDesktop
 
         private void label7_Click(object sender, EventArgs e)
         {
-
+            double newBalance = account.getAccountBalance() - 500;
         }
 
         private void label13_Click(object sender, EventArgs e)
         {
-
+            
         }
     }
 }

@@ -50,37 +50,37 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.panel21 = new System.Windows.Forms.Panel();
+            this.panel20 = new System.Windows.Forms.Panel();
+            this.panel19 = new System.Windows.Forms.Panel();
+            this.panel17 = new System.Windows.Forms.Panel();
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.panel24 = new System.Windows.Forms.Panel();
+            this.label15 = new System.Windows.Forms.Label();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.panel22 = new System.Windows.Forms.Panel();
+            this.label14 = new System.Windows.Forms.Label();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.label13 = new System.Windows.Forms.Label();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.label12 = new System.Windows.Forms.Label();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.label11 = new System.Windows.Forms.Label();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel23 = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel18 = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel16 = new System.Windows.Forms.Panel();
+            this.fiveH = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.label12 = new System.Windows.Forms.Label();
-            this.panel13 = new System.Windows.Forms.Panel();
-            this.label13 = new System.Windows.Forms.Label();
-            this.panel14 = new System.Windows.Forms.Panel();
-            this.label14 = new System.Windows.Forms.Label();
-            this.panel15 = new System.Windows.Forms.Panel();
-            this.label15 = new System.Windows.Forms.Label();
-            this.panel16 = new System.Windows.Forms.Panel();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.panel18 = new System.Windows.Forms.Panel();
-            this.panel19 = new System.Windows.Forms.Panel();
-            this.panel20 = new System.Windows.Forms.Panel();
-            this.panel21 = new System.Windows.Forms.Panel();
-            this.panel22 = new System.Windows.Forms.Panel();
-            this.panel23 = new System.Windows.Forms.Panel();
-            this.panel24 = new System.Windows.Forms.Panel();
             this.tabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.cancel.SuspendLayout();
@@ -90,15 +90,15 @@
             this.transfer.SuspendLayout();
             this.withdraw.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel7.SuspendLayout();
-            this.panel9.SuspendLayout();
-            this.panel11.SuspendLayout();
-            this.panel13.SuspendLayout();
-            this.panel14.SuspendLayout();
             this.panel15.SuspendLayout();
+            this.panel14.SuspendLayout();
+            this.panel13.SuspendLayout();
+            this.panel11.SuspendLayout();
+            this.panel9.SuspendLayout();
+            this.panel7.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl
@@ -354,6 +354,274 @@
             this.tabPage2.Text = " ";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // panel21
+            // 
+            this.panel21.AutoSize = true;
+            this.panel21.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel21.Location = new System.Drawing.Point(875, 515);
+            this.panel21.Name = "panel21";
+            this.panel21.Size = new System.Drawing.Size(42, 92);
+            this.panel21.TabIndex = 2;
+            // 
+            // panel20
+            // 
+            this.panel20.AutoSize = true;
+            this.panel20.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel20.Location = new System.Drawing.Point(875, 355);
+            this.panel20.Name = "panel20";
+            this.panel20.Size = new System.Drawing.Size(42, 92);
+            this.panel20.TabIndex = 2;
+            // 
+            // panel19
+            // 
+            this.panel19.AutoSize = true;
+            this.panel19.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel19.Location = new System.Drawing.Point(875, 195);
+            this.panel19.Name = "panel19";
+            this.panel19.Size = new System.Drawing.Size(42, 92);
+            this.panel19.TabIndex = 2;
+            // 
+            // panel17
+            // 
+            this.panel17.AutoSize = true;
+            this.panel17.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel17.Location = new System.Drawing.Point(422, 355);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(42, 92);
+            this.panel17.TabIndex = 2;
+            // 
+            // panel15
+            // 
+            this.panel15.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel15.Controls.Add(this.panel24);
+            this.panel15.Controls.Add(this.label15);
+            this.panel15.Location = new System.Drawing.Point(1288, 445);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(282, 92);
+            this.panel15.TabIndex = 8;
+            // 
+            // panel24
+            // 
+            this.panel24.AutoSize = true;
+            this.panel24.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel24.Location = new System.Drawing.Point(0, 0);
+            this.panel24.Name = "panel24";
+            this.panel24.Size = new System.Drawing.Size(42, 92);
+            this.panel24.TabIndex = 2;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Square721 BT", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label15.ForeColor = System.Drawing.Color.White;
+            this.label15.Location = new System.Drawing.Point(76, 16);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(190, 60);
+            this.label15.TabIndex = 0;
+            this.label15.Text = "Cancel";
+            // 
+            // panel14
+            // 
+            this.panel14.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel14.Controls.Add(this.panel22);
+            this.panel14.Controls.Add(this.label14);
+            this.panel14.Location = new System.Drawing.Point(875, 675);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(296, 92);
+            this.panel14.TabIndex = 7;
+            // 
+            // panel22
+            // 
+            this.panel22.AutoSize = true;
+            this.panel22.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel22.Location = new System.Drawing.Point(0, 0);
+            this.panel22.Name = "panel22";
+            this.panel22.Size = new System.Drawing.Size(42, 92);
+            this.panel22.TabIndex = 2;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Square721 BT", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label14.ForeColor = System.Drawing.Color.White;
+            this.label14.Location = new System.Drawing.Point(57, 10);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(235, 71);
+            this.label14.TabIndex = 0;
+            this.label14.Text = "40000";
+            // 
+            // panel13
+            // 
+            this.panel13.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel13.Controls.Add(this.label13);
+            this.panel13.Location = new System.Drawing.Point(875, 515);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(296, 92);
+            this.panel13.TabIndex = 6;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Square721 BT", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.Location = new System.Drawing.Point(53, 11);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(235, 71);
+            this.label13.TabIndex = 0;
+            this.label13.Text = "30000";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
+            // 
+            // panel11
+            // 
+            this.panel11.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel11.Controls.Add(this.label12);
+            this.panel11.Location = new System.Drawing.Point(875, 355);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(296, 92);
+            this.panel11.TabIndex = 5;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Square721 BT", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(54, 11);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(235, 71);
+            this.label12.TabIndex = 0;
+            this.label12.Text = "20000";
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel9.Controls.Add(this.label11);
+            this.panel9.Location = new System.Drawing.Point(875, 195);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(296, 92);
+            this.panel9.TabIndex = 4;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Square721 BT", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label11.ForeColor = System.Drawing.Color.White;
+            this.label11.Location = new System.Drawing.Point(54, 11);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(235, 71);
+            this.label11.TabIndex = 0;
+            this.label11.Text = "10000";
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel7.Controls.Add(this.panel23);
+            this.panel7.Controls.Add(this.label10);
+            this.panel7.Location = new System.Drawing.Point(422, 675);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(304, 92);
+            this.panel7.TabIndex = 3;
+            // 
+            // panel23
+            // 
+            this.panel23.AutoSize = true;
+            this.panel23.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel23.Location = new System.Drawing.Point(0, 0);
+            this.panel23.Name = "panel23";
+            this.panel23.Size = new System.Drawing.Size(42, 92);
+            this.panel23.TabIndex = 2;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Square721 BT", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label10.ForeColor = System.Drawing.Color.White;
+            this.label10.Location = new System.Drawing.Point(93, 10);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(194, 71);
+            this.label10.TabIndex = 0;
+            this.label10.Text = "5000";
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel5.Controls.Add(this.panel18);
+            this.panel5.Controls.Add(this.label9);
+            this.panel5.Location = new System.Drawing.Point(422, 515);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(304, 92);
+            this.panel5.TabIndex = 2;
+            // 
+            // panel18
+            // 
+            this.panel18.AutoSize = true;
+            this.panel18.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel18.Location = new System.Drawing.Point(0, 0);
+            this.panel18.Name = "panel18";
+            this.panel18.Size = new System.Drawing.Size(42, 92);
+            this.panel18.TabIndex = 2;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Square721 BT", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.Location = new System.Drawing.Point(87, 11);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(194, 71);
+            this.label9.TabIndex = 0;
+            this.label9.Text = "2000";
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel3.Controls.Add(this.label8);
+            this.panel3.Location = new System.Drawing.Point(422, 355);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(304, 92);
+            this.panel3.TabIndex = 1;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Square721 BT", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Location = new System.Drawing.Point(74, 11);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(194, 71);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "1000";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel1.Controls.Add(this.panel16);
+            this.panel1.Controls.Add(this.fiveH);
+            this.panel1.Location = new System.Drawing.Point(422, 195);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(304, 92);
+            this.panel1.TabIndex = 0;
+            // 
+            // panel16
+            // 
+            this.panel16.AutoSize = true;
+            this.panel16.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel16.Location = new System.Drawing.Point(0, 0);
+            this.panel16.Name = "panel16";
+            this.panel16.Size = new System.Drawing.Size(42, 92);
+            this.panel16.TabIndex = 2;
+            // 
+            // fiveH
+            // 
+            this.fiveH.AutoSize = true;
+            this.fiveH.Font = new System.Drawing.Font("Square721 BT", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.fiveH.ForeColor = System.Drawing.Color.White;
+            this.fiveH.Location = new System.Drawing.Point(114, 11);
+            this.fiveH.Name = "fiveH";
+            this.fiveH.Size = new System.Drawing.Size(153, 71);
+            this.fiveH.TabIndex = 0;
+            this.fiveH.Text = "500";
+            this.fiveH.Click += new System.EventHandler(this.label7_Click);
+            // 
             // tabPage3
             // 
             this.tabPage3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage3.BackgroundImage")));
@@ -396,274 +664,6 @@
             this.tabPage6.Text = "tabPage6";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.SteelBlue;
-            this.panel1.Controls.Add(this.panel16);
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Location = new System.Drawing.Point(422, 195);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(304, 92);
-            this.panel1.TabIndex = 0;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Square721 BT", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(114, 11);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(153, 71);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "500";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.SteelBlue;
-            this.panel3.Controls.Add(this.label8);
-            this.panel3.Location = new System.Drawing.Point(422, 355);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(304, 92);
-            this.panel3.TabIndex = 1;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Square721 BT", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(74, 11);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(194, 71);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "1000";
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.SteelBlue;
-            this.panel5.Controls.Add(this.panel18);
-            this.panel5.Controls.Add(this.label9);
-            this.panel5.Location = new System.Drawing.Point(422, 515);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(304, 92);
-            this.panel5.TabIndex = 2;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Square721 BT", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(87, 11);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(194, 71);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "2000";
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.SteelBlue;
-            this.panel7.Controls.Add(this.panel23);
-            this.panel7.Controls.Add(this.label10);
-            this.panel7.Location = new System.Drawing.Point(422, 675);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(304, 92);
-            this.panel7.TabIndex = 3;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Square721 BT", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(93, 10);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(194, 71);
-            this.label10.TabIndex = 0;
-            this.label10.Text = "5000";
-            // 
-            // panel9
-            // 
-            this.panel9.BackColor = System.Drawing.Color.SteelBlue;
-            this.panel9.Controls.Add(this.label11);
-            this.panel9.Location = new System.Drawing.Point(875, 195);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(296, 92);
-            this.panel9.TabIndex = 4;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Square721 BT", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(54, 11);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(235, 71);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "10000";
-            // 
-            // panel11
-            // 
-            this.panel11.BackColor = System.Drawing.Color.SteelBlue;
-            this.panel11.Controls.Add(this.label12);
-            this.panel11.Location = new System.Drawing.Point(875, 355);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(296, 92);
-            this.panel11.TabIndex = 5;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Square721 BT", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(54, 11);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(235, 71);
-            this.label12.TabIndex = 0;
-            this.label12.Text = "20000";
-            // 
-            // panel13
-            // 
-            this.panel13.BackColor = System.Drawing.Color.SteelBlue;
-            this.panel13.Controls.Add(this.label13);
-            this.panel13.Location = new System.Drawing.Point(875, 515);
-            this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(296, 92);
-            this.panel13.TabIndex = 6;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Square721 BT", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(53, 11);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(235, 71);
-            this.label13.TabIndex = 0;
-            this.label13.Text = "30000";
-            this.label13.Click += new System.EventHandler(this.label13_Click);
-            // 
-            // panel14
-            // 
-            this.panel14.BackColor = System.Drawing.Color.SteelBlue;
-            this.panel14.Controls.Add(this.panel22);
-            this.panel14.Controls.Add(this.label14);
-            this.panel14.Location = new System.Drawing.Point(875, 675);
-            this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(296, 92);
-            this.panel14.TabIndex = 7;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Square721 BT", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(57, 10);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(235, 71);
-            this.label14.TabIndex = 0;
-            this.label14.Text = "40000";
-            // 
-            // panel15
-            // 
-            this.panel15.BackColor = System.Drawing.Color.SteelBlue;
-            this.panel15.Controls.Add(this.panel24);
-            this.panel15.Controls.Add(this.label15);
-            this.panel15.Location = new System.Drawing.Point(1288, 445);
-            this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(282, 92);
-            this.panel15.TabIndex = 8;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Square721 BT", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(76, 16);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(190, 60);
-            this.label15.TabIndex = 0;
-            this.label15.Text = "Cancel";
-            // 
-            // panel16
-            // 
-            this.panel16.AutoSize = true;
-            this.panel16.BackColor = System.Drawing.Color.MidnightBlue;
-            this.panel16.Location = new System.Drawing.Point(0, 0);
-            this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(42, 92);
-            this.panel16.TabIndex = 2;
-            // 
-            // panel17
-            // 
-            this.panel17.AutoSize = true;
-            this.panel17.BackColor = System.Drawing.Color.MidnightBlue;
-            this.panel17.Location = new System.Drawing.Point(422, 355);
-            this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(42, 92);
-            this.panel17.TabIndex = 2;
-            // 
-            // panel18
-            // 
-            this.panel18.AutoSize = true;
-            this.panel18.BackColor = System.Drawing.Color.MidnightBlue;
-            this.panel18.Location = new System.Drawing.Point(0, 0);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(42, 92);
-            this.panel18.TabIndex = 2;
-            // 
-            // panel19
-            // 
-            this.panel19.AutoSize = true;
-            this.panel19.BackColor = System.Drawing.Color.MidnightBlue;
-            this.panel19.Location = new System.Drawing.Point(875, 195);
-            this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(42, 92);
-            this.panel19.TabIndex = 2;
-            // 
-            // panel20
-            // 
-            this.panel20.AutoSize = true;
-            this.panel20.BackColor = System.Drawing.Color.MidnightBlue;
-            this.panel20.Location = new System.Drawing.Point(875, 355);
-            this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(42, 92);
-            this.panel20.TabIndex = 2;
-            // 
-            // panel21
-            // 
-            this.panel21.AutoSize = true;
-            this.panel21.BackColor = System.Drawing.Color.MidnightBlue;
-            this.panel21.Location = new System.Drawing.Point(875, 515);
-            this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(42, 92);
-            this.panel21.TabIndex = 2;
-            // 
-            // panel22
-            // 
-            this.panel22.AutoSize = true;
-            this.panel22.BackColor = System.Drawing.Color.MidnightBlue;
-            this.panel22.Location = new System.Drawing.Point(0, 0);
-            this.panel22.Name = "panel22";
-            this.panel22.Size = new System.Drawing.Size(42, 92);
-            this.panel22.TabIndex = 2;
-            // 
-            // panel23
-            // 
-            this.panel23.AutoSize = true;
-            this.panel23.BackColor = System.Drawing.Color.MidnightBlue;
-            this.panel23.Location = new System.Drawing.Point(0, 0);
-            this.panel23.Name = "panel23";
-            this.panel23.Size = new System.Drawing.Size(42, 92);
-            this.panel23.TabIndex = 2;
-            // 
-            // panel24
-            // 
-            this.panel24.AutoSize = true;
-            this.panel24.BackColor = System.Drawing.Color.MidnightBlue;
-            this.panel24.Location = new System.Drawing.Point(0, 0);
-            this.panel24.Name = "panel24";
-            this.panel24.Size = new System.Drawing.Size(42, 92);
-            this.panel24.TabIndex = 2;
-            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -688,24 +688,24 @@
             this.withdraw.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            this.panel9.ResumeLayout(false);
-            this.panel9.PerformLayout();
-            this.panel11.ResumeLayout(false);
-            this.panel11.PerformLayout();
-            this.panel13.ResumeLayout(false);
-            this.panel13.PerformLayout();
-            this.panel14.ResumeLayout(false);
-            this.panel14.PerformLayout();
             this.panel15.ResumeLayout(false);
             this.panel15.PerformLayout();
+            this.panel14.ResumeLayout(false);
+            this.panel14.PerformLayout();
+            this.panel13.ResumeLayout(false);
+            this.panel13.PerformLayout();
+            this.panel11.ResumeLayout(false);
+            this.panel11.PerformLayout();
+            this.panel9.ResumeLayout(false);
+            this.panel9.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -754,7 +754,7 @@
         private Panel panel3;
         private Label label8;
         private Panel panel1;
-        private Label label7;
+        private Label fiveH;
         private Panel panel16;
         private Panel panel20;
         private Panel panel19;
