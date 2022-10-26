@@ -13,6 +13,7 @@ namespace AtmMachineDesktop
     public partial class Form2 : Form
     {
         public AccountModel account;
+        public int count;
         public Form2(AccountModel account)
         {
             InitializeComponent();
@@ -59,12 +60,165 @@ namespace AtmMachineDesktop
 
         private void label7_Click(object sender, EventArgs e)
         {
-            double newBalance = account.getAccountBalance() - 500;
+            if(account.getAccountBalance() < 500)
+            {
+                tabControl.SelectTab(6);
+            }
+            else
+            {
+                double newBalance = account.getAccountBalance() - 500;
+                account.setAccountBalance(newBalance);
+                tabControl.SelectTab(6);
+                alertText.Text = "Transfer Successful";
+            }
         }
 
         private void label13_Click(object sender, EventArgs e)
         {
+            if (account.getAccountBalance() < 30000)
+            {
+                tabControl.SelectTab(6);
+            }
+            else
+            {
+                double newBalance = account.getAccountBalance() - 30000;
+                account.setAccountBalance(newBalance);
+                tabControl.SelectTab(6);
+                alertText.Text = "Transfer Successful";
+            }
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            if (account.getAccountBalance() < 1000)
+            {
+                tabControl.SelectTab(6);
+            }
+            else
+            {
+                double newBalance = account.getAccountBalance() - 1000;
+                account.setAccountBalance(newBalance);
+                tabControl.SelectTab(6);
+                alertText.Text = "Transfer Successful";
+            }
             
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+            if (account.getAccountBalance() < 2000)
+            {
+                tabControl.SelectTab(6);
+            }
+            else
+            {
+                double newBalance = account.getAccountBalance() - 2000;
+                account.setAccountBalance(newBalance);
+                tabControl.SelectTab(6);
+                alertText.Text = "Transfer Successful";
+            }
+            
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+            if (account.getAccountBalance() < 5000)
+            {
+                tabControl.SelectTab(6);
+            }
+            else
+            {
+                double newBalance = account.getAccountBalance() - 5000;
+                account.setAccountBalance(newBalance);
+                tabControl.SelectTab(6);
+                alertText.Text = "Transfer Successful";
+            }
+
+            
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+            if (account.getAccountBalance() < 10000)
+            {
+                tabControl.SelectTab(6);
+            }
+            else
+            {
+                double newBalance = account.getAccountBalance() - 10000;
+                account.setAccountBalance(newBalance);
+                tabControl.SelectTab(6);
+                alertText.Text = "Transfer Successful";
+            }
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+            if (account.getAccountBalance() < 20000)
+            {
+                tabControl.SelectTab(6);
+            }
+            else
+            {
+                double newBalance = account.getAccountBalance() - 20000;
+                account.setAccountBalance(newBalance);
+                tabControl.SelectTab(6);
+                alertText.Text = "Transfer Successful";
+            }
+        }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+            if (account.getAccountBalance() < 40000)
+            {
+                tabControl.SelectTab(6);
+            }
+            else
+            {
+                double newBalance = account.getAccountBalance() - 40000;
+                account.setAccountBalance(newBalance);
+                tabControl.SelectTab(6);
+                alertText.Text = "Transfer Successful";
+            }
+        }
+
+        private void label17_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectTab(7);
+        }
+
+        private void label18_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectTab(0);
+        }
+
+        private void submitPin_Click(object sender, EventArgs e)
+        {
+            count++;
+            if (confirmPin.Text.Length != 4)
+            {
+                MessageBox.Show("Please enter your 4 digit pin");
+            }
+            
+            if(confirmPin.Text != account.getAccountPin() && count < 3)
+            {
+                
+                
+                MessageBox.Show("Incorrect Pin");
+            }
+            else if(count > 3){
+                tabControl.SelectTab(0);
+            }
+            else
+            {
+                count = 0;
+                tabControl.SelectTab(1);
+            }
+        }
+
+        private void label16_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

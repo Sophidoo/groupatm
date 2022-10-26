@@ -81,6 +81,19 @@
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.panel27 = new System.Windows.Forms.Panel();
+            this.panel28 = new System.Windows.Forms.Panel();
+            this.label18 = new System.Windows.Forms.Label();
+            this.panel25 = new System.Windows.Forms.Panel();
+            this.panel26 = new System.Windows.Forms.Panel();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.alertText = new System.Windows.Forms.Label();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.submitPin = new System.Windows.Forms.Button();
+            this.confirmPin = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
             this.tabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.cancel.SuspendLayout();
@@ -99,6 +112,10 @@
             this.panel5.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.tabPage7.SuspendLayout();
+            this.panel27.SuspendLayout();
+            this.panel25.SuspendLayout();
+            this.tabPage8.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl
@@ -109,6 +126,8 @@
             this.tabControl.Controls.Add(this.tabPage4);
             this.tabControl.Controls.Add(this.tabPage5);
             this.tabControl.Controls.Add(this.tabPage6);
+            this.tabControl.Controls.Add(this.tabPage7);
+            this.tabControl.Controls.Add(this.tabPage8);
             this.tabControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl.Location = new System.Drawing.Point(0, 0);
             this.tabControl.Name = "tabControl";
@@ -449,6 +468,7 @@
             this.label14.Size = new System.Drawing.Size(235, 71);
             this.label14.TabIndex = 0;
             this.label14.Text = "40000";
+            this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // panel13
             // 
@@ -490,6 +510,7 @@
             this.label12.Size = new System.Drawing.Size(235, 71);
             this.label12.TabIndex = 0;
             this.label12.Text = "20000";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // panel9
             // 
@@ -510,6 +531,7 @@
             this.label11.Size = new System.Drawing.Size(235, 71);
             this.label11.TabIndex = 0;
             this.label11.Text = "10000";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // panel7
             // 
@@ -540,6 +562,7 @@
             this.label10.Size = new System.Drawing.Size(194, 71);
             this.label10.TabIndex = 0;
             this.label10.Text = "5000";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // panel5
             // 
@@ -570,6 +593,7 @@
             this.label9.Size = new System.Drawing.Size(194, 71);
             this.label9.TabIndex = 0;
             this.label9.Text = "2000";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // panel3
             // 
@@ -590,6 +614,7 @@
             this.label8.Size = new System.Drawing.Size(194, 71);
             this.label8.TabIndex = 0;
             this.label8.Text = "1000";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // panel1
             // 
@@ -664,6 +689,161 @@
             this.tabPage6.Text = "tabPage6";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
+            // tabPage7
+            // 
+            this.tabPage7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage7.BackgroundImage")));
+            this.tabPage7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tabPage7.Controls.Add(this.panel27);
+            this.tabPage7.Controls.Add(this.panel25);
+            this.tabPage7.Controls.Add(this.label16);
+            this.tabPage7.Controls.Add(this.alertText);
+            this.tabPage7.Font = new System.Drawing.Font("News701 BT", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.tabPage7.Location = new System.Drawing.Point(4, 29);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage7.Size = new System.Drawing.Size(1916, 1022);
+            this.tabPage7.TabIndex = 6;
+            this.tabPage7.Text = "tabPage7";
+            this.tabPage7.UseVisualStyleBackColor = true;
+            // 
+            // panel27
+            // 
+            this.panel27.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel27.Controls.Add(this.panel28);
+            this.panel27.Controls.Add(this.label18);
+            this.panel27.Location = new System.Drawing.Point(1022, 514);
+            this.panel27.Name = "panel27";
+            this.panel27.Size = new System.Drawing.Size(166, 91);
+            this.panel27.TabIndex = 3;
+            // 
+            // panel28
+            // 
+            this.panel28.AutoSize = true;
+            this.panel28.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel28.Location = new System.Drawing.Point(0, 0);
+            this.panel28.Name = "panel28";
+            this.panel28.Size = new System.Drawing.Size(42, 92);
+            this.panel28.TabIndex = 1;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label18.Font = new System.Drawing.Font("News701 BT", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label18.ForeColor = System.Drawing.Color.White;
+            this.label18.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label18.Location = new System.Drawing.Point(64, 26);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(75, 40);
+            this.label18.TabIndex = 0;
+            this.label18.Text = "NO";
+            this.label18.Click += new System.EventHandler(this.label18_Click);
+            // 
+            // panel25
+            // 
+            this.panel25.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel25.Controls.Add(this.panel26);
+            this.panel25.Controls.Add(this.label17);
+            this.panel25.Location = new System.Drawing.Point(654, 513);
+            this.panel25.Name = "panel25";
+            this.panel25.Size = new System.Drawing.Size(188, 91);
+            this.panel25.TabIndex = 2;
+            // 
+            // panel26
+            // 
+            this.panel26.AutoSize = true;
+            this.panel26.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel26.Location = new System.Drawing.Point(0, 0);
+            this.panel26.Name = "panel26";
+            this.panel26.Size = new System.Drawing.Size(42, 92);
+            this.panel26.TabIndex = 1;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label17.Font = new System.Drawing.Font("News701 BT", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label17.ForeColor = System.Drawing.Color.White;
+            this.label17.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label17.Location = new System.Drawing.Point(64, 26);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(92, 40);
+            this.label17.TabIndex = 0;
+            this.label17.Text = "YES";
+            this.label17.Click += new System.EventHandler(this.label17_Click);
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.ForeColor = System.Drawing.Color.White;
+            this.label16.Location = new System.Drawing.Point(383, 342);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(1196, 61);
+            this.label16.TabIndex = 1;
+            this.label16.Text = "Do you want to perform another transaction?";
+            this.label16.Click += new System.EventHandler(this.label16_Click);
+            // 
+            // alertText
+            // 
+            this.alertText.AutoSize = true;
+            this.alertText.Font = new System.Drawing.Font("News701 BT", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.alertText.ForeColor = System.Drawing.Color.White;
+            this.alertText.Location = new System.Drawing.Point(600, 228);
+            this.alertText.Name = "alertText";
+            this.alertText.Size = new System.Drawing.Size(728, 82);
+            this.alertText.TabIndex = 0;
+            this.alertText.Text = "Insufficient Balance";
+            // 
+            // tabPage8
+            // 
+            this.tabPage8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage8.BackgroundImage")));
+            this.tabPage8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tabPage8.Controls.Add(this.submitPin);
+            this.tabPage8.Controls.Add(this.confirmPin);
+            this.tabPage8.Controls.Add(this.label19);
+            this.tabPage8.Font = new System.Drawing.Font("News701 BT", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.tabPage8.ForeColor = System.Drawing.Color.White;
+            this.tabPage8.Location = new System.Drawing.Point(4, 29);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage8.Size = new System.Drawing.Size(1916, 1022);
+            this.tabPage8.TabIndex = 7;
+            this.tabPage8.Text = "tabPage8";
+            this.tabPage8.UseVisualStyleBackColor = true;
+            // 
+            // submitPin
+            // 
+            this.submitPin.BackColor = System.Drawing.Color.SteelBlue;
+            this.submitPin.FlatAppearance.BorderSize = 0;
+            this.submitPin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
+            this.submitPin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.submitPin.Font = new System.Drawing.Font("News701 BT", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.submitPin.Location = new System.Drawing.Point(921, 437);
+            this.submitPin.Name = "submitPin";
+            this.submitPin.Size = new System.Drawing.Size(164, 55);
+            this.submitPin.TabIndex = 2;
+            this.submitPin.Text = "Submit";
+            this.submitPin.UseVisualStyleBackColor = false;
+            this.submitPin.Click += new System.EventHandler(this.submitPin_Click);
+            // 
+            // confirmPin
+            // 
+            this.confirmPin.Font = new System.Drawing.Font("News701 BT", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.confirmPin.Location = new System.Drawing.Point(807, 353);
+            this.confirmPin.Name = "confirmPin";
+            this.confirmPin.Size = new System.Drawing.Size(415, 40);
+            this.confirmPin.TabIndex = 1;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(712, 250);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(594, 61);
+            this.label19.TabIndex = 0;
+            this.label19.Text = "Please Input Your Pin";
+            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -706,6 +886,14 @@
             this.panel3.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.tabPage7.ResumeLayout(false);
+            this.tabPage7.PerformLayout();
+            this.panel27.ResumeLayout(false);
+            this.panel27.PerformLayout();
+            this.panel25.ResumeLayout(false);
+            this.panel25.PerformLayout();
+            this.tabPage8.ResumeLayout(false);
+            this.tabPage8.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -764,5 +952,18 @@
         private Panel panel24;
         private Panel panel22;
         private Panel panel23;
+        private TabPage tabPage7;
+        private Label label16;
+        private Label alertText;
+        private Panel panel25;
+        private Panel panel26;
+        private Label label17;
+        private Panel panel27;
+        private Panel panel28;
+        private Label label18;
+        private TabPage tabPage8;
+        private Button submitPin;
+        private TextBox confirmPin;
+        private Label label19;
     }
 }

@@ -1,8 +1,11 @@
+using System.Collections;
+
 namespace AtmMachineDesktop
 {
     public partial class Form1 : Form
     {
         AccountModel account = new AccountModel();
+        public Hashtable accountPin = new Hashtable();
            
         public Form1()
         {
@@ -32,7 +35,8 @@ namespace AtmMachineDesktop
             {
                 Form2 form = new Form2(account);
                 account.setAccountNumber(accNo.Text);
-                account.setAccountPin(accNo.Text);
+                account.setAccountPin(accPin.Text);
+                accountPin.Add(accNo.Text, accPin.Text);
                 this.Hide();
                 form.Show();
             }
