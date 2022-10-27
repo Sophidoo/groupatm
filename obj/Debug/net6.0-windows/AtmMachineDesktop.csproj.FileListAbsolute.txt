@@ -17,3 +17,41 @@ C:\Users\sophi\source\repos\AtmMachineDesktop\obj\Debug\net6.0-windows\AtmMachin
 C:\Users\sophi\source\repos\AtmMachineDesktop\obj\Debug\net6.0-windows\AtmMachineDesktop.genruntimeconfig.cache
 C:\Users\sophi\source\repos\AtmMachineDesktop\obj\Debug\net6.0-windows\ref\AtmMachineDesktop.dll
 C:\Users\sophi\source\repos\AtmMachineDesktop\obj\Debug\net6.0-windows\AtmMachineDesktop.Form2.resources
+C:\Users\sophi\OneDrive\Documents\C# Class\AtmMachineDesktop\bin\Debug\net6.0-windows\AtmMachineDesktop.exe
+C:\Users\sophi\OneDrive\Documents\C# Class\AtmMachineDesktop\bin\Debug\net6.0-windows\AtmMachineDesktop.deps.json
+C:\Users\sophi\OneDrive\Documents\C# Class\AtmMachineDesktop\bin\Debug\net6.0-windows\AtmMachineDesktop.runtimeconfig.json
+C:\Users\sophi\OneDrive\Documents\C# Class\AtmMachineDesktop\bin\Debug\net6.0-windows\AtmMachineDesktop.dll
+C:\Users\sophi\OneDrive\Documents\C# Class\AtmMachineDesktop\bin\Debug\net6.0-windows\AtmMachineDesktop.pdb
+C:\Users\sophi\OneDrive\Documents\C# Class\AtmMachineDesktop\obj\Debug\net6.0-windows\AtmMachineDesktop.csproj.AssemblyReference.cache
+C:\Users\sophi\OneDrive\Documents\C# Class\AtmMachineDesktop\obj\Debug\net6.0-windows\AtmMachineDesktop.Form1.resources
+C:\Users\sophi\OneDrive\Documents\C# Class\AtmMachineDesktop\obj\Debug\net6.0-windows\AtmMachineDesktop.Form2.resources
+C:\Users\sophi\OneDrive\Documents\C# Class\AtmMachineDesktop\obj\Debug\net6.0-windows\AtmMachineDesktop.Properties.Resources.resources
+C:\Users\sophi\OneDrive\Documents\C# Class\AtmMachineDesktop\obj\Debug\net6.0-windows\AtmMachineDesktop.csproj.GenerateResource.cache
+C:\Users\sophi\OneDrive\Documents\C# Class\AtmMachineDesktop\obj\Debug\net6.0-windows\AtmMachineDesktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sophi\OneDrive\Documents\C# Class\AtmMachineDesktop\obj\Debug\net6.0-windows\AtmMachineDesktop.AssemblyInfoInputs.cache
+C:\Users\sophi\OneDrive\Documents\C# Class\AtmMachineDesktop\obj\Debug\net6.0-windows\AtmMachineDesktop.AssemblyInfo.cs
+C:\Users\sophi\OneDrive\Documents\C# Class\AtmMachineDesktop\obj\Debug\net6.0-windows\AtmMachineDesktop.csproj.CoreCompileInputs.cache
+C:\Users\sophi\OneDrive\Documents\C# Class\AtmMachineDesktop\obj\Debug\net6.0-windows\AtmMachineDesktop.dll
+C:\Users\sophi\OneDrive\Documents\C# Class\AtmMachineDesktop\obj\Debug\net6.0-windows\refint\AtmMachineDesktop.dll
+C:\Users\sophi\OneDrive\Documents\C# Class\AtmMachineDesktop\obj\Debug\net6.0-windows\AtmMachineDesktop.pdb
+C:\Users\sophi\OneDrive\Documents\C# Class\AtmMachineDesktop\obj\Debug\net6.0-windows\AtmMachineDesktop.genruntimeconfig.cache
+C:\Users\sophi\OneDrive\Documents\C# Class\AtmMachineDesktop\obj\Debug\net6.0-windows\ref\AtmMachineDesktop.dll
+C:\Users\sophi\OneDrive\Desktop\AtmMachineDesktop\bin\Debug\net6.0-windows\AtmMachineDesktop.exe
+C:\Users\sophi\OneDrive\Desktop\AtmMachineDesktop\bin\Debug\net6.0-windows\AtmMachineDesktop.deps.json
+C:\Users\sophi\OneDrive\Desktop\AtmMachineDesktop\bin\Debug\net6.0-windows\AtmMachineDesktop.runtimeconfig.json
+C:\Users\sophi\OneDrive\Desktop\AtmMachineDesktop\bin\Debug\net6.0-windows\AtmMachineDesktop.dll
+C:\Users\sophi\OneDrive\Desktop\AtmMachineDesktop\bin\Debug\net6.0-windows\AtmMachineDesktop.pdb
+C:\Users\sophi\OneDrive\Desktop\AtmMachineDesktop\obj\Debug\net6.0-windows\AtmMachineDesktop.csproj.AssemblyReference.cache
+C:\Users\sophi\OneDrive\Desktop\AtmMachineDesktop\obj\Debug\net6.0-windows\AtmMachineDesktop.Form1.resources
+C:\Users\sophi\OneDrive\Desktop\AtmMachineDesktop\obj\Debug\net6.0-windows\AtmMachineDesktop.Form2.resources
+C:\Users\sophi\OneDrive\Desktop\AtmMachineDesktop\obj\Debug\net6.0-windows\AtmMachineDesktop.Properties.Resources.resources
+C:\Users\sophi\OneDrive\Desktop\AtmMachineDesktop\obj\Debug\net6.0-windows\AtmMachineDesktop.csproj.GenerateResource.cache
+C:\Users\sophi\OneDrive\Desktop\AtmMachineDesktop\obj\Debug\net6.0-windows\AtmMachineDesktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sophi\OneDrive\Desktop\AtmMachineDesktop\obj\Debug\net6.0-windows\AtmMachineDesktop.AssemblyInfoInputs.cache
+C:\Users\sophi\OneDrive\Desktop\AtmMachineDesktop\obj\Debug\net6.0-windows\AtmMachineDesktop.AssemblyInfo.cs
+C:\Users\sophi\OneDrive\Desktop\AtmMachineDesktop\obj\Debug\net6.0-windows\AtmMachineDesktop.csproj.CoreCompileInputs.cache
+C:\Users\sophi\OneDrive\Desktop\AtmMachineDesktop\obj\Debug\net6.0-windows\AtmMachineDesktop.dll
+C:\Users\sophi\OneDrive\Desktop\AtmMachineDesktop\obj\Debug\net6.0-windows\refint\AtmMachineDesktop.dll
+C:\Users\sophi\OneDrive\Desktop\AtmMachineDesktop\obj\Debug\net6.0-windows\AtmMachineDesktop.pdb
+C:\Users\sophi\OneDrive\Desktop\AtmMachineDesktop\obj\Debug\net6.0-windows\AtmMachineDesktop.genruntimeconfig.cache
+C:\Users\sophi\OneDrive\Desktop\AtmMachineDesktop\obj\Debug\net6.0-windows\ref\AtmMachineDesktop.dll

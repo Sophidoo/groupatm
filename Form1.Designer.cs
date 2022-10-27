@@ -101,6 +101,7 @@
             this.accPin.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.accPin.Location = new System.Drawing.Point(740, 608);
             this.accPin.Name = "accPin";
+            this.accPin.PasswordChar = '*';
             this.accPin.Size = new System.Drawing.Size(428, 43);
             this.accPin.TabIndex = 5;
             // 

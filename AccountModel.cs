@@ -12,7 +12,9 @@ namespace AtmMachineDesktop
         private string accountPin;
         private double accountBalance;
         private string confirmAccountPin;
-
+        private string beneficiaryBank;
+        private string beneficiaryAccount;
+        private double transferAmount;
 
         public void setAccountNumber(string accNo)
         {
@@ -51,6 +53,33 @@ namespace AtmMachineDesktop
         public string getConfirmAccountPin()
         {
             return confirmAccountPin;
+        }
+
+        public void setBeneficiaryBank(string benBank)
+        {
+            this.beneficiaryBank = benBank;
+        }
+        public string getBeneficiaryBank()
+        {
+            return beneficiaryBank;
+        }
+
+        public void setBeneficiaryAccount(string benAcc)
+        {
+            this.beneficiaryAccount = benAcc;
+        }
+        public string getBeneficiaryAccount()
+        {
+            return beneficiaryAccount;
+        }
+
+        public void setTransferAmount(double amount)
+        {
+            this.transferAmount = amount;
+        }
+        public double getTransferAmount()
+        {
+            return transferAmount;
         }
     }
 }

@@ -78,9 +78,30 @@
             this.panel16 = new System.Windows.Forms.Panel();
             this.fiveH = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.transferButton = new System.Windows.Forms.Button();
+            this.transferAmount = new System.Windows.Forms.TextBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.receiverAccNumber = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.receiverBank = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.accBalance = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.confirmNewPin = new System.Windows.Forms.TextBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.changeNewPin = new System.Windows.Forms.Button();
+            this.newPin = new System.Windows.Forms.TextBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.oldPin = new System.Windows.Forms.TextBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.submitDeposit = new System.Windows.Forms.Button();
+            this.depositAmount = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.panel27 = new System.Windows.Forms.Panel();
             this.panel28 = new System.Windows.Forms.Panel();
@@ -112,6 +133,10 @@
             this.panel5.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            this.tabPage4.SuspendLayout();
+            this.tabPage5.SuspendLayout();
+            this.tabPage6.SuspendLayout();
             this.tabPage7.SuspendLayout();
             this.panel27.SuspendLayout();
             this.panel25.SuspendLayout();
@@ -651,6 +676,14 @@
             // 
             this.tabPage3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage3.BackgroundImage")));
             this.tabPage3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tabPage3.Controls.Add(this.transferButton);
+            this.tabPage3.Controls.Add(this.transferAmount);
+            this.tabPage3.Controls.Add(this.label23);
+            this.tabPage3.Controls.Add(this.receiverAccNumber);
+            this.tabPage3.Controls.Add(this.label22);
+            this.tabPage3.Controls.Add(this.receiverBank);
+            this.tabPage3.Controls.Add(this.label21);
+            this.tabPage3.Controls.Add(this.label20);
             this.tabPage3.Location = new System.Drawing.Point(4, 29);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
@@ -659,8 +692,95 @@
             this.tabPage3.Text = "tabPage3";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // transferButton
+            // 
+            this.transferButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.transferButton.Location = new System.Drawing.Point(388, 740);
+            this.transferButton.Name = "transferButton";
+            this.transferButton.Size = new System.Drawing.Size(206, 43);
+            this.transferButton.TabIndex = 7;
+            this.transferButton.Text = "Transfer";
+            this.transferButton.UseVisualStyleBackColor = true;
+            this.transferButton.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // transferAmount
+            // 
+            this.transferAmount.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.transferAmount.Location = new System.Drawing.Point(388, 653);
+            this.transferAmount.Name = "transferAmount";
+            this.transferAmount.Size = new System.Drawing.Size(427, 34);
+            this.transferAmount.TabIndex = 6;
+            this.transferAmount.TextChanged += new System.EventHandler(this.transferAmount_TextChanged);
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("News701 BT", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label23.ForeColor = System.Drawing.Color.White;
+            this.label23.Location = new System.Drawing.Point(388, 588);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(132, 34);
+            this.label23.TabIndex = 5;
+            this.label23.Text = "Amount";
+            this.label23.Click += new System.EventHandler(this.label23_Click);
+            // 
+            // receiverAccNumber
+            // 
+            this.receiverAccNumber.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.receiverAccNumber.Location = new System.Drawing.Point(388, 518);
+            this.receiverAccNumber.Name = "receiverAccNumber";
+            this.receiverAccNumber.Size = new System.Drawing.Size(427, 34);
+            this.receiverAccNumber.TabIndex = 4;
+            this.receiverAccNumber.TextChanged += new System.EventHandler(this.receiverAccNumber_TextChanged);
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("News701 BT", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label22.ForeColor = System.Drawing.Color.White;
+            this.label22.Location = new System.Drawing.Point(388, 457);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(263, 34);
+            this.label22.TabIndex = 3;
+            this.label22.Text = "Account Number";
+            // 
+            // receiverBank
+            // 
+            this.receiverBank.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.receiverBank.Location = new System.Drawing.Point(388, 396);
+            this.receiverBank.Name = "receiverBank";
+            this.receiverBank.Size = new System.Drawing.Size(427, 31);
+            this.receiverBank.TabIndex = 2;
+            this.receiverBank.TextChanged += new System.EventHandler(this.receiverBank_TextChanged);
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("News701 BT", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label21.ForeColor = System.Drawing.Color.White;
+            this.label21.Location = new System.Drawing.Point(388, 340);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(284, 34);
+            this.label21.TabIndex = 1;
+            this.label21.Text = "Beneficiary\'s Bank";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("News701 BT", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label20.ForeColor = System.Drawing.Color.White;
+            this.label20.Location = new System.Drawing.Point(313, 236);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(1016, 61);
+            this.label20.TabIndex = 0;
+            this.label20.Text = "Please Input Your Transaction Details";
+            // 
             // tabPage4
             // 
+            this.tabPage4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage4.BackgroundImage")));
+            this.tabPage4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tabPage4.Controls.Add(this.accBalance);
+            this.tabPage4.Controls.Add(this.label24);
             this.tabPage4.Location = new System.Drawing.Point(4, 29);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
@@ -668,9 +788,43 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "tabPage4";
             this.tabPage4.UseVisualStyleBackColor = true;
+            this.tabPage4.Click += new System.EventHandler(this.tabPage4_Click);
+            // 
+            // accBalance
+            // 
+            this.accBalance.AutoSize = true;
+            this.accBalance.Font = new System.Drawing.Font("News701 BT", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.accBalance.ForeColor = System.Drawing.Color.White;
+            this.accBalance.Location = new System.Drawing.Point(91, 379);
+            this.accBalance.Name = "accBalance";
+            this.accBalance.Size = new System.Drawing.Size(229, 48);
+            this.accBalance.TabIndex = 1;
+            this.accBalance.Text = "$149328.96";
+            this.accBalance.Click += new System.EventHandler(this.label25_Click);
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("News701 BT", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label24.ForeColor = System.Drawing.Color.White;
+            this.label24.Location = new System.Drawing.Point(91, 293);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(781, 73);
+            this.label24.TabIndex = 0;
+            this.label24.Text = "Your Current Balance is";
             // 
             // tabPage5
             // 
+            this.tabPage5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage5.BackgroundImage")));
+            this.tabPage5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tabPage5.Controls.Add(this.confirmNewPin);
+            this.tabPage5.Controls.Add(this.label29);
+            this.tabPage5.Controls.Add(this.changeNewPin);
+            this.tabPage5.Controls.Add(this.newPin);
+            this.tabPage5.Controls.Add(this.label28);
+            this.tabPage5.Controls.Add(this.oldPin);
+            this.tabPage5.Controls.Add(this.label27);
+            this.tabPage5.Controls.Add(this.label26);
             this.tabPage5.Location = new System.Drawing.Point(4, 29);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
@@ -679,8 +833,103 @@
             this.tabPage5.Text = "tabPage5";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
+            // confirmNewPin
+            // 
+            this.confirmNewPin.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.confirmNewPin.ForeColor = System.Drawing.Color.Black;
+            this.confirmNewPin.Location = new System.Drawing.Point(90, 570);
+            this.confirmNewPin.Name = "confirmNewPin";
+            this.confirmNewPin.PasswordChar = '*';
+            this.confirmNewPin.PlaceholderText = "****";
+            this.confirmNewPin.Size = new System.Drawing.Size(427, 31);
+            this.confirmNewPin.TabIndex = 10;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("News701 BT", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label29.ForeColor = System.Drawing.Color.White;
+            this.label29.Location = new System.Drawing.Point(90, 533);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(262, 34);
+            this.label29.TabIndex = 9;
+            this.label29.Text = "Confirm New Pin";
+            // 
+            // changeNewPin
+            // 
+            this.changeNewPin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.changeNewPin.Location = new System.Drawing.Point(90, 646);
+            this.changeNewPin.Name = "changeNewPin";
+            this.changeNewPin.Size = new System.Drawing.Size(206, 43);
+            this.changeNewPin.TabIndex = 8;
+            this.changeNewPin.Text = "Change Pin";
+            this.changeNewPin.UseVisualStyleBackColor = true;
+            this.changeNewPin.Click += new System.EventHandler(this.changeNewPin_Click);
+            // 
+            // newPin
+            // 
+            this.newPin.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.newPin.ForeColor = System.Drawing.Color.Black;
+            this.newPin.Location = new System.Drawing.Point(90, 477);
+            this.newPin.Name = "newPin";
+            this.newPin.PasswordChar = '*';
+            this.newPin.PlaceholderText = "****";
+            this.newPin.Size = new System.Drawing.Size(427, 31);
+            this.newPin.TabIndex = 5;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("News701 BT", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label28.ForeColor = System.Drawing.Color.White;
+            this.label28.Location = new System.Drawing.Point(90, 440);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(135, 34);
+            this.label28.TabIndex = 4;
+            this.label28.Text = "New Pin";
+            // 
+            // oldPin
+            // 
+            this.oldPin.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.oldPin.ForeColor = System.Drawing.Color.Black;
+            this.oldPin.Location = new System.Drawing.Point(90, 376);
+            this.oldPin.Name = "oldPin";
+            this.oldPin.PasswordChar = '*';
+            this.oldPin.PlaceholderText = "****";
+            this.oldPin.Size = new System.Drawing.Size(427, 31);
+            this.oldPin.TabIndex = 3;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("News701 BT", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label27.ForeColor = System.Drawing.Color.White;
+            this.label27.Location = new System.Drawing.Point(90, 339);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(179, 34);
+            this.label27.TabIndex = 2;
+            this.label27.Text = "Default Pin";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("News701 BT", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label26.ForeColor = System.Drawing.Color.White;
+            this.label26.Location = new System.Drawing.Point(90, 233);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(772, 61);
+            this.label26.TabIndex = 1;
+            this.label26.Text = "Proceed To Change Your Pin";
+            // 
             // tabPage6
             // 
+            this.tabPage6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage6.BackgroundImage")));
+            this.tabPage6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tabPage6.Controls.Add(this.submitDeposit);
+            this.tabPage6.Controls.Add(this.depositAmount);
+            this.tabPage6.Controls.Add(this.label7);
+            this.tabPage6.Font = new System.Drawing.Font("News701 BT", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.tabPage6.ForeColor = System.Drawing.Color.White;
             this.tabPage6.Location = new System.Drawing.Point(4, 29);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
@@ -688,6 +937,39 @@
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "tabPage6";
             this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // submitDeposit
+            // 
+            this.submitDeposit.BackColor = System.Drawing.Color.SteelBlue;
+            this.submitDeposit.FlatAppearance.BorderSize = 0;
+            this.submitDeposit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
+            this.submitDeposit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.submitDeposit.Font = new System.Drawing.Font("News701 BT", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.submitDeposit.Location = new System.Drawing.Point(825, 581);
+            this.submitDeposit.Name = "submitDeposit";
+            this.submitDeposit.Size = new System.Drawing.Size(147, 52);
+            this.submitDeposit.TabIndex = 2;
+            this.submitDeposit.Text = "Submit";
+            this.submitDeposit.UseVisualStyleBackColor = false;
+            this.submitDeposit.Click += new System.EventHandler(this.submitDeposit_Click);
+            // 
+            // depositAmount
+            // 
+            this.depositAmount.Font = new System.Drawing.Font("News701 BT", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.depositAmount.Location = new System.Drawing.Point(688, 505);
+            this.depositAmount.Name = "depositAmount";
+            this.depositAmount.Size = new System.Drawing.Size(448, 40);
+            this.depositAmount.TabIndex = 1;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(474, 376);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(931, 61);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Please Input Your Deposit Amount";
+            this.label7.Click += new System.EventHandler(this.label7_Click_1);
             // 
             // tabPage7
             // 
@@ -829,8 +1111,11 @@
             // confirmPin
             // 
             this.confirmPin.Font = new System.Drawing.Font("News701 BT", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.confirmPin.ForeColor = System.Drawing.Color.Black;
             this.confirmPin.Location = new System.Drawing.Point(807, 353);
             this.confirmPin.Name = "confirmPin";
+            this.confirmPin.PasswordChar = '*';
+            this.confirmPin.PlaceholderText = "****";
             this.confirmPin.Size = new System.Drawing.Size(415, 40);
             this.confirmPin.TabIndex = 1;
             // 
@@ -852,6 +1137,7 @@
             this.Controls.Add(this.tabControl);
             this.Name = "Form2";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.tabControl.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.cancel.ResumeLayout(false);
@@ -886,6 +1172,14 @@
             this.panel3.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
+            this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
+            this.tabPage5.ResumeLayout(false);
+            this.tabPage5.PerformLayout();
+            this.tabPage6.ResumeLayout(false);
+            this.tabPage6.PerformLayout();
             this.tabPage7.ResumeLayout(false);
             this.tabPage7.PerformLayout();
             this.panel27.ResumeLayout(false);
@@ -965,5 +1259,27 @@
         private Button submitPin;
         private TextBox confirmPin;
         private Label label19;
+        private Button submitDeposit;
+        private TextBox depositAmount;
+        private Label label7;
+        private Label label20;
+        private TextBox transferAmount;
+        private Label label23;
+        private TextBox receiverAccNumber;
+        private Label label22;
+        private TextBox receiverBank;
+        private Label label21;
+        private Button transferButton;
+        private Label label24;
+        private Label label25;
+        private Button changeNewPin;
+        private TextBox newPin;
+        private Label label28;
+        private TextBox oldPin;
+        private Label label27;
+        private Label label26;
+        private Label accBalance;
+        private TextBox confirmNewPin;
+        private Label label29;
     }
 }
